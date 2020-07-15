@@ -4,7 +4,6 @@ body {
   height: 100%;
   position: absolute;
   font-family: Raleway;
-  //Hình nền
   background: url(https://newevolutiondesigns.com/images/freebies/city-wallpaper-18.jpg) no-repeat fixed;
   background-size: cover;
   background-position: 50%;
@@ -78,20 +77,17 @@ body #findpass:focus {
 }
 
 body #NETNAM {
-  padding: 10px 20px;
+  padding: 8px 20px;
   width: auto;
-  background: white;
-  color: rgba(0, 0, 0, 5);
+  color: rgba(0, 0, 0, 0.9);
   position: fixed;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.6);
   border: none;
-  font-size: 1.2rem;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
+  font-size: 0.7rem;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
   cursor: pointer;
-  color: #c1c1c1;
-  font-size: 10px;
   top: 95%;
   left: 50%;
   -moz-transform: translate3d(-50%, 0, 0);
