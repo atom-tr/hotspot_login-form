@@ -18,7 +18,3 @@
 ![Template 8](/8/0_src/8_preview.jpg)
 ## 9 Preview
 ![Template 9](/9/0_src/9_preview.jpg)
-## 10 Preview
-![Template 10](/10/0_src/10_preview.jpg)
-## 11 Preview
-![Template 11](/11/0_src/11_preview.jpg)
