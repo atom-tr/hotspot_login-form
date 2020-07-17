@@ -1,5 +1,5 @@
 # Button Template
-https://atom-tr.github.io/hotspot_login-form/index.html
+https://atom-tr.github.io/hotspot_login-form/
 # Mikrotik Hotspot Template
  Template cho trang đăng nhập hotspot
 ## 1 Preview
