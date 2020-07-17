@@ -1157,8 +1157,44 @@
         <div class="modal-header">
                     <h2>Get the code</h2>
         </div>
-        <div class="modal-body">  <br />Copy & paste the HTML code<br /><br />           <textarea></textarea>
-  <br /><br /><br />Copy & paste the CSS code<br /><br />           <textarea></textarea>
+        <div class="modal-body">  <br />Copy & paste the HTML code<br /><br />           <textarea><div class="button">Rounded Corners</div></textarea>
+  <br /><br /><br />Copy & paste the CSS code<br /><br />           <textarea>
+  .button {
+    -webkit-box-flex: 1;
+            flex: 1 1 auto;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid #f7f7f7;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: .3s;
+    transition: .3s;
+  }
+  .button:after {
+    position: absolute;
+    -webkit-transition: .3s;
+    transition: .3s;
+    content: '';
+    width: 0;
+    bottom: 0;
+    height: 120%;
+    left: -10%;
+    -webkit-transform: skewX(15deg);
+            transform: skewX(15deg);
+    z-index: -1;
+    background: #f7f7f7;
+  }
+  .button:hover {
+    cursor: pointer;
+    border-radius: 30px;
+  }
+  .button:hover:after {
+    width: 0%;
+    left: 0;
+    color: #5bcaff;
+  }</textarea>
         </div>
       </div>
     </div>
@@ -1170,8 +1206,40 @@
         <div class="modal-header">
                     <h2>Get the code</h2>
         </div>
-        <div class="modal-body">  <br />Copy & paste the HTML code<br /><br />           <textarea></textarea>
-  <br /><br /><br />Copy & paste the CSS code<br /><br />           <textarea></textarea>
+        <div class="modal-body">  <br />Copy & paste the HTML code<br /><br />           <textarea><div class="button">Scale</div></textarea>
+  <br /><br /><br />Copy & paste the CSS code<br /><br />           <textarea>  .button {
+    -webkit-box-flex: 1;
+            flex: 1 1 auto;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid #f7f7f7;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: .3s;
+    transition: .3s;
+  }
+  .button:after {
+    position: absolute;
+    -webkit-transition: .3s;
+    transition: .3s;
+    content: '';
+    width: 0;
+    left: 50%;
+    bottom: 0;
+    height: 3px;
+    background: #f7f7f7;
+  }
+  .button:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+  .button:hover:after {
+    width: 0%;
+    left: 0;
+  }</textarea>
         </div>
       </div>
     </div>
@@ -1183,8 +1251,39 @@
         <div class="modal-header">
                     <h2>Get the code</h2>
         </div>
-        <div class="modal-body">  <br />Copy & paste the HTML code<br /><br />           <textarea></textarea>
-  <br /><br /><br />Copy & paste the CSS code<br /><br />           <textarea></textarea>
+        <div class="modal-body">  <br />Copy & paste the HTML code<br /><br />           <textarea><div class="button">Border (Inner Shadow)</div></textarea>
+  <br /><br /><br />Copy & paste the CSS code<br /><br />           <textarea>  .button {
+    -webkit-box-flex: 1;
+            flex: 1 1 auto;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid #f7f7f7;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: .3s;
+    transition: .3s;
+  }
+  .button:after {
+    position: absolute;
+    -webkit-transition: .3s;
+    transition: .3s;
+    content: '';
+    width: 0;
+    left: 50%;
+    bottom: 0;
+    height: 3px;
+    background: #f7f7f7;
+  }
+  .button:hover {
+    cursor: pointer;
+    box-shadow: inset 0px 0px 0px 3px #f7f7f7;
+  }
+  .button:hover:after {
+    width: 0%;
+    left: 0;
+  }</textarea>
         </div>
       </div>
     </div>
@@ -1196,8 +1295,39 @@
         <div class="modal-header">
                     <h2>Get the code</h2>
         </div>
-        <div class="modal-body">  <br />Copy & paste the HTML code<br /><br />           <textarea></textarea>
-  <br /><br /><br />Copy & paste the CSS code<br /><br />           <textarea></textarea>
+        <div class="modal-body">  <br />Copy & paste the HTML code<br /><br />           <textarea><div class="button">Border (Outer Shadow)</div></textarea>
+  <br /><br /><br />Copy & paste the CSS code<br /><br />           <textarea>  .button {
+    -webkit-box-flex: 1;
+            flex: 1 1 auto;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid #f7f7f7;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: .3s;
+    transition: .3s;
+  }
+  .button:after {
+    position: absolute;
+    -webkit-transition: .3s;
+    transition: .3s;
+    content: '';
+    width: 0;
+    left: 50%;
+    bottom: 0;
+    height: 3px;
+    background: #f7f7f7;
+  }
+  .button:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 0px 3px #f7f7f7;
+  }
+  .button:hover:after {
+    width: 0%;
+    left: 0;
+  }</textarea>
         </div>
       </div>
     </div>
@@ -1561,14 +1691,12 @@
           </div>
         </div>
       </div>
-
-
       <a href="#T3" class="btn btn-sm animated-button thar-three" data-effect="mfp-move-horizontal">Register</a>
 <div id="T3" class="white-popup mfp-with-anim mfp-hide">
         <!-- Modal content -->
         <div class="modal-content">
           <div class="modal-header">
-                        <h2>Get the code</h2>
+            <h2>Get the code</h2>
           </div>
           <div class="modal-body">
   <br />Copy & paste the HTML code<br /><br />
